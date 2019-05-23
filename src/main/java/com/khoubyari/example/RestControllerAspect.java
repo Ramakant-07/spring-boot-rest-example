@@ -20,5 +20,7 @@ public class RestControllerAspect {
     public void logBeforeRestCall(JoinPoint pjp) throws Throwable {
         log.info(":::::AOP Before REST call:::::" + pjp);
         log.info(":::::Dummyy Test REST call:::::" + pjp);
+        log.info(":::::Dummyy Test REST1 call:::::" + pjp);
+        
     }
 }
